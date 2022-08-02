@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <title><?= $title ?></title>
     <link rel="icon" href="<?= base_url('assets/images/favicon.png')?>" sizes="35x35" type="image/png">
     <title>NeonDir - Directory Listing HTML5 Template</title>
 
@@ -21,17 +22,17 @@
 
     <!-- Gradient Color Scheme -->
     <link rel="stylesheet" href="assets/css/colors/color.css" title="color">
-    <link rel="alternate stylesheet" href="<?= base_url('')?>assets/css/colors/color2.css" title="color2"> <!-- Color2 -->
-    <link rel="alternate stylesheet" href="<?= base_url('')?>assets/css/colors/color3.css" title="color3"> <!-- Color3 -->
-    <link rel="alternate stylesheet" href="<?= base_url('')?>assets/css/colors/color4.css" title="color4"> <!-- Color4 -->
-    <link rel="alternate stylesheet" href="<?= base_url('')?>assets/css/colors/color5.css" title="color5"> <!-- Color5 -->
+    <link rel="alternate stylesheet" href="<?= base_url('assets/css/colors/color2.css')?>" title="color2"> <!-- Color2 -->
+    <link rel="alternate stylesheet" href="<?= base_url('assets/css/colors/color3.css')?>" title="color3"> <!-- Color3 -->
+    <link rel="alternate stylesheet" href="<?= base_url('assets/css/colors/color4.css')?>" title="color4"> <!-- Color4 -->
+    <link rel="alternate stylesheet" href="<?= base_url('assets/css/colors/color5.css')?>" title="color5"> <!-- Color5 -->
 
     <!-- Solid Color Scheme -->
-    <link rel="alternate stylesheet" href="<?= base_url('')?>assets/css/colors/color6.css" title="color6"> <!-- Color6 -->
-    <link rel="alternate stylesheet" href="<?= base_url('')?>assets/css/colors/color7.css" title="color7"> <!-- Color7 -->
-    <link rel="alternate stylesheet" href="<?= base_url('')?>assets/css/colors/color8.css" title="color8"> <!-- Color8 -->
-    <link rel="alternate stylesheet" href="<?= base_url('')?>assets/css/colors/color9.css" title="color9"> <!-- Color9 -->
-    <link rel="alternate stylesheet" href="<?= base_url('')?>assets/css/colors/color10.css" title="color10"> <!-- Color10 -->
+    <link rel="alternate stylesheet" href="<?= base_url('assets/css/colors/color6.css')?>" title="color6"> <!-- Color6 -->
+    <link rel="alternate stylesheet" href="<?= base_url('assets/css/colors/color7.css')?>" title="color7"> <!-- Color7 -->
+    <link rel="alternate stylesheet" href="<?= base_url('assets/css/colors/color8.css')?>" title="color8"> <!-- Color8 -->
+    <link rel="alternate stylesheet" href="<?= base_url('assets/css/colors/color9.css')?>" title="color9"> <!-- Color9 -->
+    <link rel="alternate stylesheet" href="<?= base_url('assets/css/colors/color10.css')?>" title="color10"> <!-- Color10 -->
 </head>
 
 <body>
@@ -57,7 +58,7 @@
         </div><!-- Side Panel -->
         <header class="stick style1 w-100 d-flex flex-wrap justify-content-between align-items-center">
             <div class="logo">
-                <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png" alt="Logo" srcset="assets/images/retina-logo.png')?>"></a></h1>
+                <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png')?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png')?>"></a></h1>
             </div><!-- Logo -->
             <div class="menu-wrap">
                 <span class="d-block">Your Location: Sanfrancisco, CA <a class="thm-clr" href="javascript:void(0);" title=""><i class="fas fa-map-marker-alt"></i>Change location</a></span>
