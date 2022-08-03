@@ -5,7 +5,7 @@ class Home extends CI_Controller {
 
 
 	public function index()
-	{//test
+	{
         $this->load->model('Home_model');
 		$data['title'] = 'Home Page';
         $this->load->view('template/header', $data);
