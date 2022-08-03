@@ -118,47 +118,21 @@
             <div class="rsnp-mnu">
                 <span class="rspn-mnu-cls"><i class="fa fa-times"></i></span>
                 <ul class="mb-0 list-unstyled w-100">
-                    <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Home</a>
-                        <ul class="children mb-0 list-unstyled">
-                            <li><a href="index.html" title="">Homepage 1</a></li>
-                            <li><a href="index2.html" title="">Homepage 2</a></li>
-                            <li><a href="index3.html" title="">Homepage 3</a></li>
-                            <li><a href="index4.html" title="">Homepage 4</a></li>
-                            <li><a href="index5.html" title="">Homepage 5</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="<?= base_url() ?>contact" title="">Contact us</a></li>
                     <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Listing</a>
                         <ul class="children mb-0 list-unstyled">
-                            <li><a href="place-listing.html" title="">Place Listing</a></li>
-                            <li><a href="listing-explore-map-sidebar.html" title="">Listing With Map Style 1</a></li>
-                            <li><a href="place-layout-detail.html" title="">Listing Detail Style 1</a></li>
-                            <li><a href="listing-explore-map-sidebar2.html" title="">Listing With Map Style 2</a></li>
-                            <li><a href="place-layout-detail2.html" title="">Listing Detail Style 2</a></li>
-                            <li><a href="add-listing.html" title="">Add Listing</a></li>
-                            <li><a href="listing-review.html" title="">Listing Review</a></li>
+                            <li><a href="<?= base_url()?>listing/add" title="">Add Listing</a></li>
+                            <li><a href="<?= base_url()?>listing/detail" title="">Listing Detail Style 1</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Pages</a>
                         <ul class="children mb-0 list-unstyled">
-                            <li><a href="listing-layout.html" title="">Listing Style 1</a></li>
-                            <li><a href="listing-layout2.html" title="">Listing Style 2</a></li>
-                            <li><a href="event-detail.html" title="">Event Detail Style 1</a></li>
-                            <li><a href="event-detail2.html" title="">Event Detail Style 2</a></li>
-                            <li><a href="price-table.html" title="">Price Table</a></li>
-                            <li><a href="gallery.html" title="">Gallery Style 1</a></li>
-                            <li><a href="gallery2.html" title="">Gallery Style 2</a></li>
-                            <li><a href="gallery3.html" title="">Gallery Style 3</a></li>
-                            <li><a href="gallery-detail.html" title="">Gallery Detail</a></li>
-                            <li><a href="login.html" title="">Login</a></li>
+                            <li><a href="<?= base_url()?>listing/style" title="">Listing Style 1</a></li>
+                            <li><a href="<?= base_url()?>eventdetail/detailevent" title="">Event Detail Style</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html" title="">About us</a></li>
-                    <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Contact us</a>
-                        <ul class="children mb-0 list-unstyled">
-                            <li><a href="contact.html" title="">Contact us 1</a></li>
-                            <li><a href="contact2.html" title="">Contact us 2</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="<?= base_url() ?>about" title="">About us</a></li>
+                    <li><a href="<?= base_url() ?>contact" title="">Contact us</a></li>
                 </ul>
             </div><!-- Responsive Menu -->
         </div><!-- Responsive Header -->
