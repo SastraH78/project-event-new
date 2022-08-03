@@ -22,5 +22,14 @@ class Listing extends CI_Controller {
         $this->load->view('template/footer');
 	}
 
+	public function listingstyle1()
+	{
+		$this->load->model('Home_model');
+		$data['title'] = 'Listing Style 1 Page';
+		$this->load->view('template/header', $data);
+		$this->load->view('listingstyle1_page/index');
+		$this->load->view('template/footer');
+	}
+
 
 }
