@@ -182,7 +182,7 @@
         </div><!-- Responsive Header -->
         <section>
             <div class="w-100 pt-180 pb-110 black-layer opc45 position-relative">
-                <div class="fixed-bg" style="background-image: url(assets/images/pg-tp-bg.jpg);"></div>
+                <div class="fixed-bg" style="background-image: url(<?= base_url('assets/images/pg-tp-bg.jpg')?>);"></div>
                 <div class="container">
                     <div class="pg-tp-wrp text-center w-100">
                         <h1 class="mb-0">About us</h1>
@@ -258,7 +258,7 @@
         </section>
         <section>
             <div class="w-100 pt-180 pb-180 dark-layer2 opc65 position-relative">
-                <div class="fixed-bg" style="background-image: url(assets/images/parallax2.jpg);"></div>
+                <div class="fixed-bg" style="background-image: url(<?= base_url('assets/images/parallax2.jpg')?>);"></div>
                 <div class="container">
                     <div class="video-wrap text-center w-100">
                         <div class="video-inner d-inline-block">

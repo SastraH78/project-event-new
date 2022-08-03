@@ -182,7 +182,7 @@
         </div><!-- Responsive Header -->
         <section>
             <div class="w-100 pt-180 pb-110 black-layer opc45 position-relative">
-                <div class="fixed-bg" style="background-image: url(assets/images/pg-tp-bg.jpg);"></div>
+                <div class="fixed-bg" style="background-image: url(<?= base_url('assets/images/pg-tp-bg.jpg')?>);"></div>
                 <div class="container">
                     <div class="pg-tp-wrp text-center w-100">
                         <h1 class="mb-0">Login & Register</h1>
@@ -199,7 +199,7 @@
                 <div class="login-register-wrap w-100">
                     <div class="row mrg align-items-center">
                         <div class="col-md-12 col-sm-12 col-lg-5">
-                            <div class="login-wrap w-100 position-relative" style="background-image: url(assets/images/login-bg.jpg);">
+                            <div class="login-wrap w-100 position-relative" style="background-image: url(<?= base_url('assets/images/login-bg.jpg')?>);">
                                 <div class="login-inner">
                                     <div class="title2 w-100">
                                         <h2 class="mb-0">Login your Account</h2>
