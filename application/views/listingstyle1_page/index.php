@@ -30,7 +30,7 @@
                             <a href="javascript:void(0);" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="top-links d-inline-flex">
-                            <a class="login-btn" href="login.html" title=""><i class="thm-clr fas fa-user"></i>login or Register</a>
+                            <a class="login-btn" href="<?= base_url() ?>login" title=""><i class="thm-clr fas fa-user"></i>login or Register</a>
                             <a class="search-btn" href="javascript:void(0);" title=""><i class="thm-clr fas fa-search"></i></a>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                 <div class="container">
                     <div class="menu-inner d-flex flex-wrap align-items-center justify-content-between w-100">
                         <div class="logo">
-                            <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png') ?>"></a></h1>
+                            <h1 class="mb-0"><a href="<?= base_url() ?>home" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png') ?>"></a></h1>
                         </div><!-- Logo -->
                         <nav class="d-inline-flex align-items-center">
                             <div>
@@ -102,7 +102,7 @@
                                         </ul>
                                     </li>
                                 </ul>
-                                <a class="header-btn" href="add-listing.html" title=""><i class="">+</i>Add Listing</a>
+                                <a class="header-btn" href="<?= base_url() ?>listing/add" title=""><i class="">+</i>Add Listing</a>
                             </div>
                         </nav>
                     </div>
@@ -182,12 +182,12 @@
         </div><!-- Responsive Header -->
         <section>
             <div class="w-100 pt-180 pb-110 black-layer opc45 position-relative">
-                <div class="fixed-bg" style="background-image: url(<?= base_url('assets/images/pg-tp-bg.jpg')?>);"></div>
+                <div class="fixed-bg" style="background-image: url(<?= base_url('assets/images/pg-tp-bg.jpg') ?>);"></div>
                 <div class="container">
                     <div class="pg-tp-wrp text-center w-100">
                         <h1 class="mb-0">City Night Life Directory</h1>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= base_url() ?>home" title="Home">Home</a></li>
                             <li class="breadcrumb-item active">Listing Place</li>
                         </ol>
                     </div><!-- Page Top Wrap -->
@@ -225,7 +225,7 @@
                                                 <span class="list-post-date"><i class="thm-clr far fa-clock"></i>27 May 2020</span>
                                                 <span class="list-post-rate text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><span>4.0/5</span></span>
                                             </div>
-                                            <h3 class="mb-0"><a href="event-detail.html" title="">Seafood Rooftop into Dinner and Wine</a></h3>
+                                            <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Seafood Rooftop into Dinner and Wine</a></h3>
                                             <div class="list-post-author-stats d-flex flex-wrap justify-content-between align-items-center">
                                                 <div class="list-post-author d-inline-flex align-items-center">
                                                     <img class="rounded-circle img-fluid" src="<?= base_url('assets/images/resources/author-img1-1.jpg') ?>" alt="Author Image 1">
@@ -254,7 +254,7 @@
                                                 <span class="list-post-date"><i class="thm-clr far fa-clock"></i>27 May 2020</span>
                                                 <span class="list-post-rate text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><span>4.0/5</span></span>
                                             </div>
-                                            <h3 class="mb-0"><a href="event-detail.html" title="">Seafood Rooftop into Dinner and Wine</a></h3>
+                                            <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Seafood Rooftop into Dinner and Wine</a></h3>
                                             <div class="list-post-author-stats d-flex flex-wrap justify-content-between align-items-center">
                                                 <div class="list-post-author d-inline-flex align-items-center">
                                                     <img class="rounded-circle img-fluid" src="<?= base_url('assets/images/resources/author-img1-2.jpg') ?>" alt="Author Image 2">
@@ -283,7 +283,7 @@
                                                 <span class="list-post-date"><i class="thm-clr far fa-clock"></i>27 May 2020</span>
                                                 <span class="list-post-rate text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><span>4.0/5</span></span>
                                             </div>
-                                            <h3 class="mb-0"><a href="event-detail.html" title="">Seafood Rooftop into Dinner and Wine</a></h3>
+                                            <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Seafood Rooftop into Dinner and Wine</a></h3>
                                             <div class="list-post-author-stats d-flex flex-wrap justify-content-between align-items-center">
                                                 <div class="list-post-author d-inline-flex align-items-center">
                                                     <img class="rounded-circle img-fluid" src="<?= base_url('assets/images/resources/author-img1-3.jpg') ?>" alt="Author Image 3">
@@ -312,7 +312,7 @@
                                                 <span class="list-post-date"><i class="thm-clr far fa-clock"></i>27 May 2020</span>
                                                 <span class="list-post-rate text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><span>4.0/5</span></span>
                                             </div>
-                                            <h3 class="mb-0"><a href="event-detail.html" title="">Seafood Rooftop into Dinner and Wine</a></h3>
+                                            <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Seafood Rooftop into Dinner and Wine</a></h3>
                                             <div class="list-post-author-stats d-flex flex-wrap justify-content-between align-items-center">
                                                 <div class="list-post-author d-inline-flex align-items-center">
                                                     <img class="rounded-circle img-fluid" src="<?= base_url('assets/images/resources/author-img1-4.jpg') ?>" alt="Author Image 4">
@@ -341,7 +341,7 @@
                                                 <span class="list-post-date"><i class="thm-clr far fa-clock"></i>27 May 2020</span>
                                                 <span class="list-post-rate text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><span>4.0/5</span></span>
                                             </div>
-                                            <h3 class="mb-0"><a href="event-detail.html" title="">Seafood Rooftop into Dinner and Wine</a></h3>
+                                            <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Seafood Rooftop into Dinner and Wine</a></h3>
                                             <div class="list-post-author-stats d-flex flex-wrap justify-content-between align-items-center">
                                                 <div class="list-post-author d-inline-flex align-items-center">
                                                     <img class="rounded-circle img-fluid" src="<?= base_url('assets/images/resources/author-img1-5.jpg') ?>" alt="Author Image 5">
@@ -370,7 +370,7 @@
                                                 <span class="list-post-date"><i class="thm-clr far fa-clock"></i>27 May 2020</span>
                                                 <span class="list-post-rate text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><span>4.0/5</span></span>
                                             </div>
-                                            <h3 class="mb-0"><a href="event-detail.html" title="">Seafood Rooftop into Dinner and Wine</a></h3>
+                                            <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Seafood Rooftop into Dinner and Wine</a></h3>
                                             <div class="list-post-author-stats d-flex flex-wrap justify-content-between align-items-center">
                                                 <div class="list-post-author d-inline-flex align-items-center">
                                                     <img class="rounded-circle img-fluid" src="<?= base_url('assets/images/resources/author-img1-6.jpg') ?>" alt="Author Image 6">

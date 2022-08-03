@@ -30,7 +30,7 @@
                             <a href="javascript:void(0);" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="top-links d-inline-flex">
-                            <a class="login-btn" href="login.html" title=""><i class="thm-clr fas fa-user"></i>login or Register</a>
+                            <a class="login-btn" href="<?= base_url() ?>login" title=""><i class="thm-clr fas fa-user"></i>login or Register</a>
                             <a class="search-btn" href="javascript:void(0);" title=""><i class="thm-clr fas fa-search"></i></a>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                 <div class="container">
                     <div class="menu-inner d-flex flex-wrap align-items-center justify-content-between w-100">
                         <div class="logo">
-                            <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png') ?>"></a></h1>
+                            <h1 class="mb-0"><a href="<?= base_url() ?>home" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png') ?>"></a></h1>
                         </div><!-- Logo -->
                         <nav class="d-inline-flex align-items-center">
                             <div>
@@ -102,7 +102,7 @@
                                         </ul>
                                     </li>
                                 </ul>
-                                <a class="header-btn" href="add-listing.html" title=""><i class="">+</i>Add Listing</a>
+                                <a class="header-btn" href="<?= base_url() ?>listing/add" title=""><i class="">+</i>Add Listing</a>
                             </div>
                         </nav>
                     </div>

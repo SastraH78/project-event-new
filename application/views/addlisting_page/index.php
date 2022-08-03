@@ -30,7 +30,7 @@
                             <a href="javascript:void(0);" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="top-links d-inline-flex">
-                            <a class="login-btn" href="login.html" title=""><i class="thm-clr fas fa-user"></i>login or Register</a>
+                            <a class="login-btn" href="<?= base_url() ?>login" title=""><i class="thm-clr fas fa-user"></i>Login or Register</a>
                             <a class="search-btn" href="javascript:void(0);" title=""><i class="thm-clr fas fa-search"></i></a>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                 <div class="container">
                     <div class="menu-inner d-flex flex-wrap align-items-center justify-content-between w-100">
                         <div class="logo">
-                            <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png')?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png')?>"></a></h1>
+                            <h1 class="mb-0"><a href="<?= base_url() ?>home" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png') ?>"></a></h1>
                         </div><!-- Logo -->
                         <nav class="d-inline-flex align-items-center">
                             <div>
@@ -88,7 +88,7 @@
                                                 </div>
                                                 <div class="col-md-4 col-sm-12 col-sm-4">
                                                     <div class="megamenu-add w-100">
-                                                        <img class="img-fluid" src="<?= base_url('assets/images/resources/megamenu-img.jpg')?>" alt="Megamenu Image">
+                                                        <img class="img-fluid" src="<?= base_url('assets/images/resources/megamenu-img.jpg') ?>" alt="Megamenu Image">
                                                     </div>
                                                 </div>
                                             </div>
@@ -102,7 +102,7 @@
                                         </ul>
                                     </li>
                                 </ul>
-                                <a class="header-btn" href="add-listing.html" title=""><i class="">+</i>Add Listing</a>
+                                <a class="header-btn" href="<?= base_url() ?>listing/add" title=""><i class="">+</i>Add Listing</a>
                             </div>
                         </nav>
                     </div>
@@ -187,7 +187,7 @@
                     <div class="pg-tp-wrp text-center w-100">
                         <h1 class="mb-0">Add Listing</h1>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= base_url() ?>home" title="Home">Home</a></li>
                             <li class="breadcrumb-item active">Add listing</li>
                         </ol>
                     </div><!-- Page Top Wrap -->
@@ -202,7 +202,7 @@
                             <div class="add-listing-top-info d-flex flex-wrap justify-content-between w-100">
                                 <div class="add-listing-top-info-btns">
                                     <a href="javascript:void(0);" title=""><i class="thm-clr fas fa-pencil-ruler"></i>Add Listing</a><br>
-                                    <a href="login.html" title=""><i class="thm-clr fas fa-sign-out-alt"></i>Logout</a>
+                                    <a href="" title=""><i class="thm-clr fas fa-sign-out-alt"></i>Logout</a>
                                 </div>
                                 <div class="add-listing-top-info-user text-center">
                                     <div class="add-listing-top-info-img position-relative">
@@ -284,35 +284,35 @@
                                                         <div class="listing-posts-wrap2 w-100">
                                                             <div class="listing-post-box3 v2 d-flex flex-wrap w-100">
                                                                 <div class="listing-post-img3">
-                                                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img4-1.jpg') ?>" alt="List Post Image 1"></a>
+                                                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img4-1.jpg') ?>" alt="List Post Image 1"></a>
                                                                 </div>
                                                                 <div class="list-post-info3">
                                                                     <ul class="post-meta2 d-inline-flex mb-0 list-unstyled">
                                                                         <li><i class="thm-clr far fa-clock"></i>May 28, 2018</li>
                                                                     </ul>
-                                                                    <h3 class="mb-0"><a href="event-detail.html" title="">MWC Barcelona 2021</a></h3>
+                                                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">MWC Barcelona 2021</a></h3>
                                                                 </div>
                                                             </div>
                                                             <div class="listing-post-box3 v2 d-flex flex-wrap w-100">
                                                                 <div class="listing-post-img3">
-                                                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img4-2.jpg') ?>" alt="List Post Image 2"></a>
+                                                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img4-2.jpg') ?>" alt="List Post Image 2"></a>
                                                                 </div>
                                                                 <div class="list-post-info3">
                                                                     <ul class="post-meta2 d-inline-flex mb-0 list-unstyled">
                                                                         <li><i class="thm-clr far fa-clock"></i>May 28, 2018</li>
                                                                     </ul>
-                                                                    <h3 class="mb-0"><a href="event-detail.html" title="">MWC Barcelona 2021</a></h3>
+                                                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">MWC Barcelona 2021</a></h3>
                                                                 </div>
                                                             </div>
                                                             <div class="listing-post-box3 v2 d-flex flex-wrap w-100">
                                                                 <div class="listing-post-img3">
-                                                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img4-3.jpg') ?>" alt="List Post Image 3"></a>
+                                                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img4-3.jpg') ?>" alt="List Post Image 3"></a>
                                                                 </div>
                                                                 <div class="list-post-info3">
                                                                     <ul class="post-meta2 d-inline-flex mb-0 list-unstyled">
                                                                         <li><i class="thm-clr far fa-clock"></i>May 28, 2018</li>
                                                                     </ul>
-                                                                    <h3 class="mb-0"><a href="event-detail.html" title="">MWC Barcelona 2021</a></h3>
+                                                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">MWC Barcelona 2021</a></h3>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -423,7 +423,7 @@
                                         <div class="listing-posts-wrap2 w-100">
                                             <div class="listing-post-box3 v3 d-flex flex-wrap w-100">
                                                 <div class="listing-post-img3">
-                                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img5-1.jpg') ?>" alt="List Post Image 1"></a>
+                                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img5-1.jpg') ?>" alt="List Post Image 1"></a>
                                                     <span class="position-absolute rounded-pill">Featured</span>
                                                 </div>
                                                 <div class="list-post-info3">
@@ -431,7 +431,7 @@
                                                         <li><i class="thm-clr far fa-clock"></i>May 28, 2018</li>
                                                         <li><i class="thm-clr fas fa-user-edit"></i>By <a href="javascript:void(0);">Lokina</a></li>
                                                     </ul>
-                                                    <h3 class="mb-0"><a href="event-detail.html" title="">New Mexico</a></h3>
+                                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">New Mexico</a></h3>
                                                     <p class="mb-0">Luxury hotel in the heart of BloomsburyLuxury hotel in the heart of Bloomsbury Luxury hotel in the heart of BloomsburyLuxury hotel in the heart of BloomsburyLuxury hotel in the heart</p>
                                                     <ul class="post-meta d-inline-flex flex-wrap mb-0 list-unstyled">
                                                         <li><i class="fas fa-glass-cheers rounded-circle"></i>3 Events Available</li>
@@ -441,7 +441,7 @@
                                             </div>
                                             <div class="listing-post-box3 v3 d-flex flex-wrap w-100">
                                                 <div class="listing-post-img3">
-                                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img5-2-1.jpg') ?>" alt="List Post Image 2"></a>
+                                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img5-2-1.jpg') ?>" alt="List Post Image 2"></a>
                                                     <span class="position-absolute rounded-pill">Featured</span>
                                                 </div>
                                                 <div class="list-post-info3">
@@ -449,7 +449,7 @@
                                                         <li><i class="thm-clr far fa-clock"></i>May 28, 2018</li>
                                                         <li><i class="thm-clr fas fa-user-edit"></i>By <a href="javascript:void(0);">Lokina</a></li>
                                                     </ul>
-                                                    <h3 class="mb-0"><a href="event-detail.html" title="">Washinton</a></h3>
+                                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Washinton</a></h3>
                                                     <p class="mb-0">Luxury hotel in the heart of BloomsburyLuxury hotel in the heart of Bloomsbury Luxury hotel in the heart of BloomsburyLuxury hotel in the heart of BloomsburyLuxury hotel in the heart</p>
                                                     <ul class="post-meta d-inline-flex flex-wrap mb-0 list-unstyled">
                                                         <li><i class="fas fa-glass-cheers rounded-circle"></i>3 Events Available</li>
@@ -459,7 +459,7 @@
                                             </div>
                                             <div class="listing-post-box3 v3 d-flex flex-wrap w-100">
                                                 <div class="listing-post-img3">
-                                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img5-3.jpg') ?>" alt="List Post Image 3"></a>
+                                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/list-post-img5-3.jpg') ?>" alt="List Post Image 3"></a>
                                                     <span class="position-absolute rounded-pill">Featured</span>
                                                 </div>
                                                 <div class="list-post-info3">
@@ -467,7 +467,7 @@
                                                         <li><i class="thm-clr far fa-clock"></i>May 28, 2018</li>
                                                         <li><i class="thm-clr fas fa-user-edit"></i>By <a href="javascript:void(0);">Lokina</a></li>
                                                     </ul>
-                                                    <h3 class="mb-0"><a href="event-detail.html" title="">Colorado</a></h3>
+                                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Colorado</a></h3>
                                                     <p class="mb-0">Luxury hotel in the heart of BloomsburyLuxury hotel in the heart of Bloomsbury Luxury hotel in the heart of BloomsburyLuxury hotel in the heart of BloomsburyLuxury hotel in the heart</p>
                                                     <ul class="post-meta d-inline-flex flex-wrap mb-0 list-unstyled">
                                                         <li><i class="fas fa-glass-cheers rounded-circle"></i>0 Events Available</li>

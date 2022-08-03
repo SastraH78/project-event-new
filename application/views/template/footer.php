@@ -10,7 +10,7 @@
                         </ul>
                     </div>
                     <div class="footer-cont-btn">
-                        <a class="thm-btn rounded" href="about.html" title="">About Us</a>
+                        <a class="thm-btn rounded" href="<?= base_url()?>about" title="">About Us</a>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Listing extends CI_Controller {
 
 
-	public function addlisting()
+	public function add()
 	{
 		$data['judul'] = 'Add Listing Page';
         $this->load->view('template/header', $data);
@@ -12,7 +12,7 @@ class Listing extends CI_Controller {
         $this->load->view('template/footer');
 	}
 
-    public function listingdetail()
+    public function detail()
 	{
 		$data['judul'] = 'Detail Listing Page';
         $this->load->view('template/header', $data);
@@ -20,7 +20,7 @@ class Listing extends CI_Controller {
         $this->load->view('template/footer');
 	}
 
-	public function listingstyle1()
+	public function style()
 	{
 		$data['judul'] = 'Listing Style 1 Page';
 		$this->load->view('template/header', $data);
