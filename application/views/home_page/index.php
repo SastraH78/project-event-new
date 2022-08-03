@@ -21,7 +21,7 @@
         </div><!-- Side Panel -->
         <header class="stick style1 w-100 d-flex flex-wrap justify-content-between align-items-center">
             <div class="logo">
-                <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png')?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png')?>"></a></h1>
+                <h1 class="mb-0"><a href="<?= base_url()?>home" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png')?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png')?>"></a></h1>
             </div><!-- Logo -->
             <div class="menu-wrap">
                 <span class="d-block">Your Location: Sanfrancisco, CA <a class="thm-clr" href="javascript:void(0);" title=""><i class="fas fa-map-marker-alt"></i>Change location</a></span>

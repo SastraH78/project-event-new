@@ -21,7 +21,7 @@
                     <div class="col-md-6 col-sm-6 col-lg-3">
                         <div class="widget w-100">
                             <div class="logo">
-                                <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png" alt="Logo" srcset="assets/images/retina-logo.png') ?>"></a></h1>
+                                <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png') ?>"></a></h1>
                             </div>
                             <p class="mb-0">Lorem ipsum dolor sit amet, conse ctetuers adipiscing eli sed diam nonum nibhieLorem ipsum dolor sit amet, conse ctetuers adipiscing eli sed diam nonum nibhie……</p>
                             <div class="social-links d-inline-block">
