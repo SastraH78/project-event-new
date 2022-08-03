@@ -21,7 +21,7 @@
                     <div class="col-md-6 col-sm-6 col-lg-3">
                         <div class="widget w-100">
                             <div class="logo">
-                                <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png" alt="Logo" srcset="assets/images/retina-logo.png')?>"></a></h1>
+                                <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png" alt="Logo" srcset="assets/images/retina-logo.png') ?>"></a></h1>
                             </div>
                             <p class="mb-0">Lorem ipsum dolor sit amet, conse ctetuers adipiscing eli sed diam nonum nibhieLorem ipsum dolor sit amet, conse ctetuers adipiscing eli sed diam nonum nibhie……</p>
                             <div class="social-links d-inline-block">
@@ -64,12 +64,12 @@
                         <div class="widget w-100">
                             <h3>Gallery</h3>
                             <ul class="gallery-list mb-0 list-unstyled d-flex flex-wrap">
-                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-1.jpg')?>" alt="Gallery Image 1"></a></li>
-                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-2.jpg')?>" alt="Gallery Image 2"></a></li>
-                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-3.jpg')?>" alt="Gallery Image 3"></a></li>
-                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-4.jpg')?>" alt="Gallery Image 4"></a></li>
-                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-5.jpg')?>" alt="Gallery Image 5"></a></li>
-                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-6.jpg')?>" alt="Gallery Image 6"></a></li>
+                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-1.jpg') ?>" alt="Gallery Image 1"></a></li>
+                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-2.jpg') ?>" alt="Gallery Image 2"></a></li>
+                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-3.jpg') ?>" alt="Gallery Image 3"></a></li>
+                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-4.jpg') ?>" alt="Gallery Image 4"></a></li>
+                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-5.jpg') ?>" alt="Gallery Image 5"></a></li>
+                                <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/gal-img1-6.jpg') ?>" alt="Gallery Image 6"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -85,18 +85,20 @@
 </div><!-- Copyright -->
 </main><!-- Main Wrapper -->
 
-<script src="<?= base_url('assets/js/jquery.min.js')?>"></script>
-<script src="<?= base_url('assets/js/popper.min.js')?>"></script>
-<script src="<?= base_url('assets/js/bootstrap.min.js')?>"></script>
-<script src="<?= base_url('assets/js/bootstrap-select.min.js')?>"></script>
-<script src="<?= base_url('assets/js/wow.min.js')?>"></script>
-<script src="<?= base_url('assets/js/counterup.min.js')?>"></script>
-<script src="<?= base_url('assets/js/scroll-up-bar.min.js')?>"></script>
-<script src="<?= base_url('assets/js/jquery.fancybox.min.js')?>"></script>
-<script src="<?= base_url('assets/js/perfect-scrollbar.min.js')?>"></script>
-<script src="<?= base_url('assets/js/styleswitcher.js')?>"></script>
-<script src="<?= base_url('assets/js/slick.min.js')?>"></script>
-<script src="<?= base_url('assets/js/custom-scripts.js')?>"></script>
+<script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/popper.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/bootstrap.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/bootstrap-select.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/wow.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/counterup.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/scroll-up-bar.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/jquery.fancybox.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/perfect-scrollbar.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/styleswitcher.js') ?>"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYc537bQom7ajFpWE5sQaVyz1SQa9_tuY&callback=initMap"></script>
+<script src="<?= base_url('assets/js/slick.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/custom-scripts.js') ?>"></script>
+<script src="<?= base_url('assets/js/google-map-int.js')?>"></script>
 </body>
 
 </html>
