@@ -40,69 +40,51 @@
                 <div class="container">
                     <div class="menu-inner d-flex flex-wrap align-items-center justify-content-between w-100">
                         <div class="logo">
-                            <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png')?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png')?>"></a></h1>
+                            <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png') ?>"></a></h1>
                         </div><!-- Logo -->
                         <nav class="d-inline-flex align-items-center">
                             <div>
                                 <ul class="mb-0 list-unstyled d-inline-flex">
-                                    <li class="menu-item-has-children"><a href="index.html" title="">Home</a>
-                                        <ul class="children mb-0 list-unstyled">
-                                            <li><a href="index.html" title="">Homepage 1</a></li>
-                                            <li><a href="index2.html" title="">Homepage 2</a></li>
-                                            <li><a href="index3.html" title="">Homepage 3</a></li>
-                                            <li><a href="index4.html" title="">Homepage 4</a></li>
-                                            <li><a href="index5.html" title="">Homepage 5</a></li>
-                                        </ul>
+                                    <li class="menu-has-children"><a href="<?= base_url() ?>home" title="">Home</a>
+                                        <!-- <ul class="children mb-0 list-unstyled">
+                                    <li><a href="index.html" title="">Homepage 1</a></li>
+                                    <li><a href="index2.html" title="">Homepage 2</a></li>
+                                    <li><a href="index3.html" title="">Homepage 3</a></li>
+                                    <li><a href="index4.html" title="">Homepage 4</a></li>
+                                    <li><a href="index5.html" title="">Homepage 5</a></li>
+                                </ul> -->
                                     </li>
                                     <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Listing</a>
                                         <ul class="children mb-0 list-unstyled">
-                                            <li><a href="place-listing.html" title="">Place Listing</a></li>
-                                            <li><a href="listing-explore-map-sidebar.html" title="">Listing With Map Style 1</a></li>
-                                            <li><a href="place-layout-detail.html" title="">Listing Detail Style 1</a></li>
-                                            <li><a href="listing-explore-map-sidebar2.html" title="">Listing With Map Style 2</a></li>
-                                            <li><a href="place-layout-detail2.html" title="">Listing Detail Style 2</a></li>
-                                            <li><a href="add-listing.html" title="">Add Listing</a></li>
-                                            <li><a href="listing-review.html" title="">Listing Review</a></li>
+                                            <li><a href="<?= base_url() ?>listing/add" title="">Add Listing</a></li>
+                                            <li><a href="<?= base_url() ?>listing/detail" title="">Listing Detail Style 1</a></li>
+                                            <!-- <li><a href="place-listing.html" title="">Place Listing</a></li>
+                                    <li><a href="listing-explore-map-sidebar.html" title="">Listing With Map Style 1</a></li>
+                                    <li><a href="listing-explore-map-sidebar2.html" title="">Listing With Map Style 2</a></li>
+                                    <li><a href="place-layout-detail2.html" title="">Listing Detail Style 2</a></li>
+                                    <li><a href="listing-review.html" title="">Listing Review</a></li> -->
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Pages</a>
-                                        <div class="megamenu center">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-4 col-sm-12 col-sm-4">
-                                                    <div class="megamenu-links w-100">
-                                                        <a href="listing-layout.html" title="">Listing Style 1</a>
-                                                        <a href="listing-layout2.html" title="">Listing Style 2</a>
-                                                        <a href="event-detail.html" title="">Event Detail Style 1</a>
-                                                        <a href="event-detail2.html" title="">Event Detail Style 2</a>
-                                                        <a href="price-table.html" title="">Price Table</a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 col-sm-12 col-sm-4">
-                                                    <div class="megamenu-links w-100">
-                                                        <a href="gallery.html" title="">Gallery Style 1</a>
-                                                        <a href="gallery2.html" title="">Gallery Style 2</a>
-                                                        <a href="gallery3.html" title="">Gallery Style 3</a>
-                                                        <a href="gallery-detail.html" title="">Gallery Detail</a>
-                                                        <a href="login.html" title="">Login</a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 col-sm-12 col-sm-4">
-                                                    <div class="megamenu-add w-100">
-                                                        <img class="img-fluid" src="<?= base_url('assets/images/resources/megamenu-img.jpg')?>" alt="Megamenu Image">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div><!-- Megamenu -->
-                                    </li>
-                                    <li><a href="about.html" title="">About us</a></li>
-                                    <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Contact us</a>
                                         <ul class="children mb-0 list-unstyled">
-                                            <li><a href="contact.html" title="">Contact us 1</a></li>
-                                            <li><a href="contact2.html" title="">Contact us 2</a></li>
+                                            <li><a href="<?= base_url() ?>listing/style" title="">Listing Style 1</a></li>
+                                            <li><a href="<?= base_url() ?>eventdetail/detailevent" title="">Event Detail Style</a></li>
+                                            <!-- <li><a href="place-listing.html" title="">Place Listing</a></li>
+                                    <li><a href="listing-explore-map-sidebar.html" title="">Listing With Map Style 1</a></li>
+                                    <li><a href="listing-explore-map-sidebar2.html" title="">Listing With Map Style 2</a></li>
+                                    <li><a href="place-layout-detail2.html" title="">Listing Detail Style 2</a></li>
+                                    <li><a href="listing-review.html" title="">Listing Review</a></li> -->
                                         </ul>
                                     </li>
+                                    <li><a href="<?= base_url() ?>about" title="">About us</a></li>
+                                    <li class="menu-has-children"><a href="<?= base_url() ?>contact" title="">Contact us</a>
+                                        <!-- <ul class="children mb-0 list-unstyled">
+                                    <li><a href="contact.html" title="">Contact us 1</a></li>
+                                    <li><a href="contact2.html" title="">Contact us 2</a></li>
+                                </ul> -->
+                                    </li>
                                 </ul>
-                                <a class="header-btn" href="add-listing.html" title=""><i class="">+</i>Add Listing</a>
+                                <a class="header-btn" href="<?= base_url() ?>listing/add" title=""><i class="">+</i>Add Listing</a>
                             </div>
                         </nav>
                     </div>
@@ -130,7 +112,7 @@
                 </form>
             </div>
             <div class="lg-mn">
-                <div class="logo"><a href="index.html" title="Home"><img src="<?= base_url('assets/images/logo2.png')?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo2.png')?>"></a></div>
+                <div class="logo"><a href="index.html" title="Home"><img src="<?= base_url('assets/images/logo2.png') ?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo2.png') ?>"></a></div>
                 <span class="rspn-mnu-btn"><i class="fa fa-list-ul"></i></span>
             </div>
             <div class="rsnp-mnu">
@@ -182,7 +164,7 @@
         </div><!-- Responsive Header -->
         <section>
             <div class="w-100 pt-180 pb-110 black-layer opc45 position-relative">
-                <div class="fixed-bg" style="background-image: url(<?= base_url('assets/images/pg-tp-bg.jpg')?>);"></div>
+                <div class="fixed-bg" style="background-image: url(<?= base_url('assets/images/pg-tp-bg.jpg') ?>);"></div>
                 <div class="container">
                     <div class="pg-tp-wrp text-center w-100">
                         <h1 class="mb-0">About us</h1>
@@ -200,7 +182,7 @@
                     <div class="about-wrap w-100">
                         <div class="row align-items-center">
                             <div class="col-md-12 col-sm-12 col-lg-6">
-                                <img class="img-fluid w-100" src="<?= base_url('assets/images/resources/about-img1.jpg')?>" alt="About Image 1">
+                                <img class="img-fluid w-100" src="<?= base_url('assets/images/resources/about-img1.jpg') ?>" alt="About Image 1">
                             </div>
                             <div class="col-md-12 col-sm-12 col-lg-6">
                                 <div class="about-desc w-100">
@@ -226,7 +208,7 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-lg-4">
                                 <div class="how-work-box w-100">
-                                    <span class="rounded-circle d-inline-block"><img class="img-fluid" src="<?= base_url('assets/images/resources/how-work-icon1.png')?>" alt="How It Works Icon 1"></span>
+                                    <span class="rounded-circle d-inline-block"><img class="img-fluid" src="<?= base_url('assets/images/resources/how-work-icon1.png') ?>" alt="How It Works Icon 1"></span>
                                     <div class="how-work-inner w-100">
                                         <h3 class="mb-0">Choose what to Do</h3>
                                         <p class="mb-0">Luxury hotel in the heart of BloomsburyLuxury hotel in the heart of Bloomsbury..</p>
@@ -235,7 +217,7 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-lg-4">
                                 <div class="how-work-box w-100">
-                                    <span class="rounded-circle d-inline-block"><img class="img-fluid" src="<?= base_url('assets/images/resources/how-work-icon2.png')?>" alt="How It Works Icon 2"></span>
+                                    <span class="rounded-circle d-inline-block"><img class="img-fluid" src="<?= base_url('assets/images/resources/how-work-icon2.png') ?>" alt="How It Works Icon 2"></span>
                                     <div class="how-work-inner w-100">
                                         <h3 class="mb-0">Find What You Want</h3>
                                         <p class="mb-0">Luxury hotel in the heart of BloomsburyLuxury hotel in the heart of Bloomsbury..</p>
@@ -244,7 +226,7 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-lg-4">
                                 <div class="how-work-box w-100">
-                                    <span class="rounded-circle d-inline-block"><img class="img-fluid" src="<?= base_url('assets/images/resources/how-work-icon3.png')?>" alt="How It Works Icon 3"></span>
+                                    <span class="rounded-circle d-inline-block"><img class="img-fluid" src="<?= base_url('assets/images/resources/how-work-icon3.png') ?>" alt="How It Works Icon 3"></span>
                                     <div class="how-work-inner w-100">
                                         <h3 class="mb-0">Amazing Places</h3>
                                         <p class="mb-0">Luxury hotel in the heart of BloomsburyLuxury hotel in the heart of Bloomsbury..</p>
@@ -258,7 +240,7 @@
         </section>
         <section>
             <div class="w-100 pt-180 pb-180 dark-layer2 opc65 position-relative">
-                <div class="fixed-bg" style="background-image: url(<?= base_url('assets/images/parallax2.jpg')?>);"></div>
+                <div class="fixed-bg" style="background-image: url(<?= base_url('assets/images/parallax2.jpg') ?>);"></div>
                 <div class="container">
                     <div class="video-wrap text-center w-100">
                         <div class="video-inner d-inline-block">
@@ -309,7 +291,7 @@
                         <div class="simple-post w-100">
                             <div class="row align-items-center">
                                 <div class="col-md-6 col-sm-12 col-lg-6">
-                                    <div class="simple-img position-relative rounded-circle"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/simple-post-img1.jpg')?>" alt="Simple Post Image 1"></div>
+                                    <div class="simple-img position-relative rounded-circle"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/simple-post-img1.jpg') ?>" alt="Simple Post Image 1"></div>
                                 </div>
                                 <div class="col-md-6 col-sm-12 col-lg-6">
                                     <div class="simple-desc w-100">
@@ -327,7 +309,7 @@
                         <div class="simple-post w-100">
                             <div class="row align-items-center">
                                 <div class="col-md-6 col-sm-12 col-lg-6 order-md-1">
-                                    <div class="simple-img position-relative rounded-circle"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/simple-post-img2.jpg')?>" alt="Simple Post Image 2"></div>
+                                    <div class="simple-img position-relative rounded-circle"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/simple-post-img2.jpg') ?>" alt="Simple Post Image 2"></div>
                                 </div>
                                 <div class="col-md-6 col-sm-12 col-lg-6">
                                     <div class="simple-desc w-100">
@@ -357,7 +339,7 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-lg-4">
                                 <div class="team-box w-100 overflow-hidden position-relative">
-                                    <img class="img-fluid w-100" src="<?= base_url('assets/images/resources/team-img1-1.jpg')?>" alt="Team Image 1">
+                                    <img class="img-fluid w-100" src="<?= base_url('assets/images/resources/team-img1-1.jpg') ?>" alt="Team Image 1">
                                     <div class="team-info w-100 position-absolute">
                                         <h3 class="mb-0"><a href="javascript:void(0);" title="">David jame</a></h3>
                                         <span class="d-block">CEO Cunao Business</span>
@@ -366,7 +348,7 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-lg-4">
                                 <div class="team-box w-100 overflow-hidden position-relative">
-                                    <img class="img-fluid w-100" src="<?= base_url('assets/images/resources/team-img1-2.jpg')?>" alt="Team Image 2">
+                                    <img class="img-fluid w-100" src="<?= base_url('assets/images/resources/team-img1-2.jpg') ?>" alt="Team Image 2">
                                     <div class="team-info w-100 position-absolute">
                                         <h3 class="mb-0"><a href="javascript:void(0);" title="">David jame</a></h3>
                                         <span class="d-block">CEO Designer</span>
@@ -375,7 +357,7 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-lg-4">
                                 <div class="team-box w-100 overflow-hidden position-relative">
-                                    <img class="img-fluid w-100" src="<?= base_url('assets/images/resources/team-img1-3.jpg')?>" alt="Team Image 3">
+                                    <img class="img-fluid w-100" src="<?= base_url('assets/images/resources/team-img1-3.jpg') ?>" alt="Team Image 3">
                                     <div class="team-info w-100 position-absolute">
                                         <h3 class="mb-0"><a href="javascript:void(0);" title="">David jame</a></h3>
                                         <span class="d-block">Designer</span>
@@ -392,10 +374,10 @@
                 <div class="container">
                     <div class="testi-wrap text-center w-100">
                         <div class="testi-img-caro">
-                            <div class="testi-img"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/testi-img1-1.jpg')?>" alt="Testimonials Image 1"></div>
-                            <div class="testi-img"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/testi-img1-2.jpg')?>" alt="Testimonials Image 2"></div>
-                            <div class="testi-img"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/testi-img1-3.jpg')?>" alt="Testimonials Image 3"></div>
-                            <div class="testi-img"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/testi-img1-4.jpg')?>" alt="Testimonials Image 4"></div>
+                            <div class="testi-img"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/testi-img1-1.jpg') ?>" alt="Testimonials Image 1"></div>
+                            <div class="testi-img"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/testi-img1-2.jpg') ?>" alt="Testimonials Image 2"></div>
+                            <div class="testi-img"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/testi-img1-3.jpg') ?>" alt="Testimonials Image 3"></div>
+                            <div class="testi-img"><img class="img-fluid rounded-circle" src="<?= base_url('assets/images/resources/testi-img1-4.jpg') ?>" alt="Testimonials Image 4"></div>
                         </div>
                         <div class="testi-desc-caro">
                             <div class="testi-desc-item">
@@ -427,11 +409,11 @@
             <div class="w-100 pb-120 position-relative">
                 <div class="container">
                     <ul class="clients-list text-center mb-0 list-unstyled d-flex flex-wrap">
-                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img1.png')?>" alt="Client Image 1"></a></li>
-                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img2.png')?>" alt="Client Image 2"></a></li>
-                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img3.png')?>" alt="Client Image 3"></a></li>
-                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img4.png')?>" alt="Client Image 4"></a></li>
-                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img5.png')?>" alt="Client Image 5"></a></li>
+                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img1.png') ?>" alt="Client Image 1"></a></li>
+                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img2.png') ?>" alt="Client Image 2"></a></li>
+                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img3.png') ?>" alt="Client Image 3"></a></li>
+                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img4.png') ?>" alt="Client Image 4"></a></li>
+                        <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="<?= base_url('assets/images/resources/client-img5.png') ?>" alt="Client Image 5"></a></li>
                     </ul>
                 </div>
             </div>

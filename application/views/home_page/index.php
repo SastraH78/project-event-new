@@ -21,72 +21,54 @@
         </div><!-- Side Panel -->
         <header class="stick style1 w-100 d-flex flex-wrap justify-content-between align-items-center">
             <div class="logo">
-                <h1 class="mb-0"><a href="<?= base_url()?>home" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png')?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png')?>"></a></h1>
+                <h1 class="mb-0"><a href="<?= base_url() ?>home" title="Home"><img class="img-fluid" src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" srcset="<?= base_url('assets/images/retina-logo.png') ?>"></a></h1>
             </div><!-- Logo -->
             <div class="menu-wrap">
                 <span class="d-block">Your Location: Sanfrancisco, CA <a class="thm-clr" href="javascript:void(0);" title=""><i class="fas fa-map-marker-alt"></i>Change location</a></span>
                 <nav class="d-inline-flex align-items-center">
                     <div>
                         <ul class="mb-0 list-unstyled d-inline-flex">
-                            <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Home</a>
-                                <ul class="children mb-0 list-unstyled">
+                            <li class="menu-has-children"><a href="<?= base_url() ?>home" title="">Home</a>
+                                <!-- <ul class="children mb-0 list-unstyled">
                                     <li><a href="index.html" title="">Homepage 1</a></li>
                                     <li><a href="index2.html" title="">Homepage 2</a></li>
                                     <li><a href="index3.html" title="">Homepage 3</a></li>
                                     <li><a href="index4.html" title="">Homepage 4</a></li>
                                     <li><a href="index5.html" title="">Homepage 5</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Listing</a>
                                 <ul class="children mb-0 list-unstyled">
-                                    <li><a href="place-listing.html" title="">Place Listing</a></li>
+                                    <li><a href="<?= base_url() ?>listing/add" title="">Add Listing</a></li>
+                                    <li><a href="<?= base_url() ?>listing/detail" title="">Listing Detail Style 1</a></li>
+                                    <!-- <li><a href="place-listing.html" title="">Place Listing</a></li>
                                     <li><a href="listing-explore-map-sidebar.html" title="">Listing With Map Style 1</a></li>
-                                    <li><a href="place-layout-detail.html" title="">Listing Detail Style 1</a></li>
                                     <li><a href="listing-explore-map-sidebar2.html" title="">Listing With Map Style 2</a></li>
                                     <li><a href="place-layout-detail2.html" title="">Listing Detail Style 2</a></li>
-                                    <li><a href="add-listing.html" title="">Add Listing</a></li>
-                                    <li><a href="listing-review.html" title="">Listing Review</a></li>
+                                    <li><a href="listing-review.html" title="">Listing Review</a></li> -->
                                 </ul>
                             </li>
                             <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Pages</a>
-                                <div class="megamenu center">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-4 col-sm-12 col-sm-4">
-                                            <div class="megamenu-links w-100">
-                                                <a href="listing-layout.html" title="">Listing Style 1</a>
-                                                <a href="listing-layout2.html" title="">Listing Style 2</a>
-                                                <a href="event-detail.html" title="">Event Detail Style 1</a>
-                                                <a href="event-detail2.html" title="">Event Detail Style 2</a>
-                                                <a href="price-table.html" title="">Price Table</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-12 col-sm-4">
-                                            <div class="megamenu-links w-100">
-                                                <a href="gallery.html" title="">Gallery Style 1</a>
-                                                <a href="gallery2.html" title="">Gallery Style 2</a>
-                                                <a href="gallery3.html" title="">Gallery Style 3</a>
-                                                <a href="gallery-detail.html" title="">Gallery Detail</a>
-                                                <a href="login.html" title="">Login</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-12 col-sm-4">
-                                            <div class="megamenu-add w-100">
-                                                <img class="img-fluid" src="<?= base_url('assets/images/resources/megamenu-img.jpg')?>" alt="Megamenu Image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- Megamenu -->
-                            </li>
-                            <li><a href="about.html" title="">About us</a></li>
-                            <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Contact us</a>
                                 <ul class="children mb-0 list-unstyled">
+                                    <li><a href="<?= base_url() ?>listing/style" title="">Listing Style 1</a></li>
+                                    <li><a href="<?= base_url() ?>eventdetail/detailevent" title="">Event Detail Style</a></li>
+                                    <!-- <li><a href="place-listing.html" title="">Place Listing</a></li>
+                                    <li><a href="listing-explore-map-sidebar.html" title="">Listing With Map Style 1</a></li>
+                                    <li><a href="listing-explore-map-sidebar2.html" title="">Listing With Map Style 2</a></li>
+                                    <li><a href="place-layout-detail2.html" title="">Listing Detail Style 2</a></li>
+                                    <li><a href="listing-review.html" title="">Listing Review</a></li> -->
+                                </ul>
+                            </li>
+                            <li><a href="<?= base_url() ?>about" title="">About us</a></li>
+                            <li class="menu-has-children"><a href="<?= base_url() ?>contact" title="">Contact us</a>
+                                <!-- <ul class="children mb-0 list-unstyled">
                                     <li><a href="contact.html" title="">Contact us 1</a></li>
                                     <li><a href="contact2.html" title="">Contact us 2</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                         </ul>
                     </div>
-                    <a class="login-btn" href="login.html" title=""><i class="thm-clr fas fa-user"></i>login or Register</a>
+                    <a class="login-btn" href="<?= base_url() ?>login" title=""><i class="thm-clr fas fa-user"></i>login or Register</a>
                 </nav>
             </div><!-- Menu Wrap -->
         </header><!-- Header -->
@@ -233,11 +215,11 @@
                             <div class="post-box brd-rd5 w-100 overflow-hidden">
                                 <div class="post-img w-100">
                                     <span class="rounded-pill bg-white position-absolute">Now Closed</span>
-                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/post-img1-1.jpg') ?>" alt="Post Image 1"></a>
+                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/post-img1-1.jpg') ?>" alt="Post Image 1"></a>
                                 </div>
                                 <div class="post-info w-100">
                                     <span class="d-inline-block text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span class="d-inline-block">4.5</span></span>
-                                    <h3 class="mb-0"><a href="event-detail.html" title="">Private Hotel-Spa</a></h3>
+                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Private Hotel-Spa</a></h3>
                                     <p class="mb-0">Luxury hotel in the heart of Bloomsbury.</p>
                                     <ul class="post-meta mb-0 list-unstyled w-100">
                                         <li><i class="fas fa-map-marker-alt rounded-circle"></i>95 South Park Avenue</li>
@@ -251,11 +233,11 @@
                             <div class="post-box brd-rd5 w-100 overflow-hidden">
                                 <div class="post-img w-100">
                                     <span class="rounded-pill bg-white position-absolute">Open</span>
-                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/post-img1-2.jpg') ?>" alt="Post Image 2"></a>
+                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/post-img1-2.jpg') ?>" alt="Post Image 2"></a>
                                 </div>
                                 <div class="post-info w-100">
                                     <span class="d-inline-block text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span class="d-inline-block">4.5</span></span>
-                                    <h3 class="mb-0"><a href="event-detail.html" title="">Private Hotel-Spa</a></h3>
+                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Private Hotel-Spa</a></h3>
                                     <p class="mb-0">Luxury hotel in the heart of Bloomsbury.</p>
                                     <ul class="post-meta mb-0 list-unstyled w-100">
                                         <li><i class="fas fa-map-marker-alt rounded-circle"></i>95 South Park Avenue</li>
@@ -269,11 +251,11 @@
                             <div class="post-box brd-rd5 w-100 overflow-hidden">
                                 <div class="post-img w-100">
                                     <span class="rounded-pill bg-white position-absolute">Now Closed</span>
-                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/post-img1-3.jpg') ?>" alt="Post Image 3"></a>
+                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/post-img1-3.jpg') ?>" alt="Post Image 3"></a>
                                 </div>
                                 <div class="post-info w-100">
                                     <span class="d-inline-block text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span class="d-inline-block">4.5</span></span>
-                                    <h3 class="mb-0"><a href="event-detail.html" title="">Private Hotel-Spa</a></h3>
+                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Private Hotel-Spa</a></h3>
                                     <p class="mb-0">Luxury hotel in the heart of Bloomsbury.</p>
                                     <ul class="post-meta mb-0 list-unstyled w-100">
                                         <li><i class="fas fa-map-marker-alt rounded-circle"></i>95 South Park Avenue</li>
@@ -287,11 +269,11 @@
                             <div class="post-box brd-rd5 w-100 overflow-hidden">
                                 <div class="post-img w-100">
                                     <span class="rounded-pill bg-white position-absolute">Now Closed</span>
-                                    <a href="event-detail.html" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/post-img1-4.jpg') ?>" alt="Post Image 4"></a>
+                                    <a href="<?= base_url() ?>eventdetail/detailevent" title=""><img class="img-fluid w-100" src="<?= base_url('assets/images/resources/post-img1-4.jpg') ?>" alt="Post Image 4"></a>
                                 </div>
                                 <div class="post-info w-100">
                                     <span class="d-inline-block text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span class="d-inline-block">4.5</span></span>
-                                    <h3 class="mb-0"><a href="event-detail.html" title="">Private Hotel-Spa</a></h3>
+                                    <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Private Hotel-Spa</a></h3>
                                     <p class="mb-0">Luxury hotel in the heart of Bloomsbury.</p>
                                     <ul class="post-meta mb-0 list-unstyled w-100">
                                         <li><i class="fas fa-map-marker-alt rounded-circle"></i>95 South Park Avenue</li>
@@ -456,13 +438,13 @@
                                 </div>
                                 <div class="feat-post-info d-flex flex-wrap justify-content-between position-absolute w-100">
                                     <div class="feat-post-info-inner">
-                                        <h3 class="mb-0"><a href="event-detail2.html" title="">Contraband Coffee Bar</a></h3>
+                                        <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Contraband Coffee Bar</a></h3>
                                         <span class="d-inline-block rate-star text-color2"><span class="bg-color3">4.5</span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                                         <i class="d-block cite-cate">Cocktail Bars</i>
                                     </div>
                                     <span class="loc"><i class="rounded d-block fas fa-map-marker-alt"></i>Location</span>
                                 </div>
-                                <a class="thm-btn" href="event-detail2.html" title="">Discover Now</a>
+                                <a class="thm-btn" href="<?= base_url() ?>eventdetail/detailevent" title="">Discover Now</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-lg-3">
@@ -472,13 +454,13 @@
                                 </div>
                                 <div class="feat-post-info d-flex flex-wrap justify-content-between position-absolute w-100">
                                     <div class="feat-post-info-inner">
-                                        <h3 class="mb-0"><a href="event-detail2.html" title="">Contraband Coffee Bar</a></h3>
+                                        <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Contraband Coffee Bar</a></h3>
                                         <span class="d-inline-block rate-star text-color2"><span class="bg-color3">4.5</span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                                         <i class="d-block cite-cate">Cocktail Bars</i>
                                     </div>
                                     <span class="loc"><i class="rounded d-block fas fa-map-marker-alt"></i>Location</span>
                                 </div>
-                                <a class="thm-btn" href="event-detail2.html" title="">Discover Now</a>
+                                <a class="thm-btn" href="<?= base_url() ?>eventdetail/detailevent" title="">Discover Now</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-lg-3">
@@ -488,13 +470,13 @@
                                 </div>
                                 <div class="feat-post-info d-flex flex-wrap justify-content-between position-absolute w-100">
                                     <div class="feat-post-info-inner">
-                                        <h3 class="mb-0"><a href="event-detail2.html" title="">Contraband Coffee Bar</a></h3>
+                                        <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Contraband Coffee Bar</a></h3>
                                         <span class="d-inline-block rate-star text-color2"><span class="bg-color3">4.5</span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                                         <i class="d-block cite-cate">Cocktail Bars</i>
                                     </div>
                                     <span class="loc"><i class="rounded d-block fas fa-map-marker-alt"></i>Location</span>
                                 </div>
-                                <a class="thm-btn" href="event-detail2.html" title="">Discover Now</a>
+                                <a class="thm-btn" href="<?= base_url() ?>eventdetail/detailevent" title="">Discover Now</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-lg-3">
@@ -504,13 +486,13 @@
                                 </div>
                                 <div class="feat-post-info d-flex flex-wrap justify-content-between position-absolute w-100">
                                     <div class="feat-post-info-inner">
-                                        <h3 class="mb-0"><a href="event-detail2.html" title="">Contraband Coffee Bar</a></h3>
+                                        <h3 class="mb-0"><a href="<?= base_url() ?>eventdetail/detailevent" title="">Contraband Coffee Bar</a></h3>
                                         <span class="d-inline-block rate-star text-color2"><span class="bg-color3">4.5</span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                                         <i class="d-block cite-cate">Cocktail Bars</i>
                                     </div>
                                     <span class="loc"><i class="rounded d-block fas fa-map-marker-alt"></i>Location</span>
                                 </div>
-                                <a class="thm-btn" href="event-detail2.html" title="">Discover Now</a>
+                                <a class="thm-btn" href="<?= base_url() ?>eventdetail/detailevent" title="">Discover Now</a>
                             </div>
                         </div>
                     </div>
