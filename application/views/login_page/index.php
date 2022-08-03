@@ -30,7 +30,7 @@
                             <a href="javascript:void(0);" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="top-links d-inline-flex">
-                            <a class="login-btn" href="<?= base_url()?>login" title=""><i class="thm-clr fas fa-user"></i>login or Register</a>
+                            <a class="login-btn" href="<?= base_url()?>login" title=""><i class="thm-clr fas fa-user"></i>Login or Register</a>
                             <a class="search-btn" href="javascript:void(0);" title=""><i class="thm-clr fas fa-search"></i></a>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                         <nav class="d-inline-flex align-items-center">
                             <div>
                                 <ul class="mb-0 list-unstyled d-inline-flex">
-                                    <li class="menu-has-children"><a href="<?= base_url() ?>home" title="">Home</a>
+                                    <li class="menu-has-children <?= $page == 'home' ? 'menu-has-children active' : ''?>"><a href="<?= base_url() ?>home" title="">Home</a>
                                         <!-- <ul class="children mb-0 list-unstyled">
                                     <li><a href="index.html" title="">Homepage 1</a></li>
                                     <li><a href="index2.html" title="">Homepage 2</a></li>
@@ -54,7 +54,7 @@
                                     <li><a href="index5.html" title="">Homepage 5</a></li>
                                 </ul> -->
                                     </li>
-                                    <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Listing</a>
+                                    <li class="menu-item-has-children <?= $page == 'listing' ? 'menu-item-has-children active' : '' ?>"><a href="javascript:void(0);" title="">Listing</a>
                                         <ul class="children mb-0 list-unstyled">
                                             <li><a href="<?= base_url() ?>listing/add" title="">Add Listing</a></li>
                                             <li><a href="<?= base_url() ?>listing/detail" title="">Listing Detail Style 1</a></li>
@@ -65,7 +65,7 @@
                                     <li><a href="listing-review.html" title="">Listing Review</a></li> -->
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Pages</a>
+                                    <li class="menu-item-has-children <?= $page == 'pages' ? 'menu-item-has-children active' : '' ?>"><a href="javascript:void(0);" title="">Pages</a>
                                         <ul class="children mb-0 list-unstyled">
                                             <li><a href="<?= base_url() ?>listing/style" title="">Listing Style 1</a></li>
                                             <li><a href="<?= base_url() ?>eventdetail/detailevent" title="">Event Detail Style</a></li>
@@ -76,8 +76,8 @@
                                     <li><a href="listing-review.html" title="">Listing Review</a></li> -->
                                         </ul>
                                     </li>
-                                    <li><a href="<?= base_url() ?>about" title="">About us</a></li>
-                                    <li class="menu-has-children"><a href="<?= base_url() ?>contact" title="">Contact us</a>
+                                    <li class="menu-has-children <?= $page == 'about' ? 'menu-has-children active' : '' ?>"><a href="<?= base_url() ?>about" title="">About us</a></li>
+                                    <li class="menu-has-children <?= $page == 'contact' ? 'menu-has-children active' : '' ?>"><a href="<?= base_url() ?>contact" title="">Contact us</a>
                                         <!-- <ul class="children mb-0 list-unstyled">
                                     <li><a href="contact.html" title="">Contact us 1</a></li>
                                     <li><a href="contact2.html" title="">Contact us 2</a></li>
@@ -118,7 +118,7 @@
             <div class="rsnp-mnu">
                 <span class="rspn-mnu-cls"><i class="fa fa-times"></i></span>
                 <ul class="mb-0 list-unstyled w-100">
-                    <li><a href="<?= base_url() ?>contact" title="">Contact us</a></li>
+                    <li><a href="<?= base_url() ?>home" title="">Home</a></li>
                     <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Listing</a>
                         <ul class="children mb-0 list-unstyled">
                             <li><a href="<?= base_url()?>listing/add" title="">Add Listing</a></li>

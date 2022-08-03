@@ -5,9 +5,10 @@ class About extends CI_Controller {
 
 	public function index()
 	{
+		$data['page'] = 'about';
         $data['judul'] = 'About Us Page';
         $this->load->view('template/header', $data);
-		$this->load->view('about_page/index');
+		$this->load->view('about_page/index', $data);
         $this->load->view('template/footer');
 	}
     
