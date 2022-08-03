@@ -95,13 +95,11 @@
 <script src="<?= base_url('assets/js/jquery.fancybox.min.js') ?>"></script>
 <script src="<?= base_url('assets/js/perfect-scrollbar.min.js') ?>"></script>
 <script src="<?= base_url('assets/js/styleswitcher.js') ?>"></script>
-
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYc537bQom7ajFpWE5sQaVyz1SQa9_tuY&callback=initMap"></script>
 <script src="<?= base_url('assets/js/slick.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/ion.rangeSlider.min.js') ?>"></script>
 <script src="<?= base_url('assets/js/custom-scripts.js') ?>"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYc537bQom7ajFpWE5sQaVyz1SQa9_tuY&callback=initMap"></script>
-<script src="<?= base_url('assets/js/google-map-int.js')?>"></script>
-
+<script src="<?= base_url('assets/js/google-map-int.js') ?>"></script>
 </body>
 
 </html>

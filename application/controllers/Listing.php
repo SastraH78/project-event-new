@@ -6,8 +6,7 @@ class Listing extends CI_Controller {
 
 	public function addlisting()
 	{
-        $this->load->model('Home_model');
-		$data['title'] = 'Add Listing Page';
+		$data['judul'] = 'Add Listing Page';
         $this->load->view('template/header', $data);
 		$this->load->view('addlisting_page/index');
         $this->load->view('template/footer');
@@ -15,8 +14,7 @@ class Listing extends CI_Controller {
 
     public function listingdetail()
 	{
-        $this->load->model('Home_model');
-		$data['title'] = 'Detail Listing Page';
+		$data['judul'] = 'Detail Listing Page';
         $this->load->view('template/header', $data);
 		$this->load->view('listingdetail_page/index');
         $this->load->view('template/footer');
@@ -24,8 +22,7 @@ class Listing extends CI_Controller {
 
 	public function listingstyle1()
 	{
-		$this->load->model('Home_model');
-		$data['title'] = 'Listing Style 1 Page';
+		$data['judul'] = 'Listing Style 1 Page';
 		$this->load->view('template/header', $data);
 		$this->load->view('listingstyle1_page/index');
 		$this->load->view('template/footer');
