@@ -317,7 +317,6 @@
                                                 <div class="list-post-author d-inline-flex align-items-center">
                                                     <img class="rounded-circle img-fluid" src="<?= base_url('assets/images/resources/author-img1-4.jpg') ?>" alt="Author Image 4">
                                                     <span>By Master Event</span>
-                                                    <!-- test -->
                                                 </div>
                                                 <span class="rounded-pill bg-color6">Now Closed</span>
                                             </div>
